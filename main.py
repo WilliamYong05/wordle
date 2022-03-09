@@ -64,12 +64,12 @@ async def show_slash(inter):
 
 HELP_TEXT = """**Wordy is a Wordle-like clone that let's you play within Discord.**
 
-Start a game by typing `/wordy <guess>` (replace <guess> with your word) and guess the word the game has secretly chosen. If Wordy returns a gray icon ⬛ the letter does not exist. If it returns a yellow icon 🟨 the letter exists but is on the wrong spot. If Wordy returns a green icon 🟩 the letter is on the correct spot.
+Start a game by typing `-wordy <guess>` (replace <guess> with your word) and guess the word the game has secretly chosen. If Wordy returns a gray icon ⬛ the letter does not exist. If it returns a yellow icon 🟨 the letter exists but is on the wrong spot. If Wordy returns a green icon 🟩 the letter is on the correct spot.
 
 New games are started automatically.
 
-To re-show your current board type `/show`.
-To give up use `/surrender`.
+To re-show your current board type `-show`.
+To give up use `-surrender`.
 """
 
 
