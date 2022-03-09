@@ -18,7 +18,7 @@ from dictionary import get_acceptable_words, get_alphabet, get_solution_words
 
 # Create the bot
 
-bot = commands.Bot(command_prefix="'", help_command=None, activity=disnake.Game(name='/help'))
+bot = commands.Bot(command_prefix="'", help_command=None, activity=disnake.Game(name=''help'))
 
 
 # Add the prefix commands
